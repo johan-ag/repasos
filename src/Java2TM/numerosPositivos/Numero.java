@@ -1,4 +1,4 @@
-package Java2TM.demo;
+package Java2TM.numerosPositivos;
 
 public class Numero {
     private int valor;
@@ -9,15 +9,10 @@ public class Numero {
         this.valor = v;
     }
     //Conocido como constructor nulo
-    public Numero(){
-    }
+    public Numero(){}
 
-    public Numero(Numero numero){
-        
-    }
 
     //Esta es una forma de clonar el objeto
-    //Es
     public Numero copiar (){
         Numero x = new Numero();
         x.setValor(this.valor);
