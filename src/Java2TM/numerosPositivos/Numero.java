@@ -9,7 +9,7 @@ public class Numero {
         this.valor = v;
     }
     //Conocido como constructor nulo
-    public Numero(){}
+    public Numero(){ this.valor = 0;}
 
 
     //Esta es una forma de clonar el objeto
