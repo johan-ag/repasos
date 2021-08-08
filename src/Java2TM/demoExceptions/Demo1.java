@@ -7,7 +7,7 @@ public class Demo1 {
 
     public static void main(String[] args) {
         try {
-            FileInputStream file = new FileInputStream("./miarchivo.txt");
+            FileInputStream file = new FileInputStream("./src/Java2TM/miarchivo.txt");
 
             int c = file.read();
 
